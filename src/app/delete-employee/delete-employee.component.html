@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-sm-6">
+    <div class="row">
+      <label class="control-label col-sm-4">Enter Employee Id: </label>
+      <div class="col-sm-5">
+        <input type="text" [(ngModel)]="empId" class="form-control" />
+      </div>
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-default" (click)="deleteEmployee()"> Delete Employee </button>
+      </div>
+
+
+    </div>
+    <div class="row">
+      {{status}}
+    </div>
+  </div>
+</div>

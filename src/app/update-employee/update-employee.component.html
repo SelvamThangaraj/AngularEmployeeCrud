@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-sm-6">
+    <div class="row">
+      <label class="control-label col-sm-4">Enter Employee Id: </label>
+      <div class="col-sm-5">
+        <input type="text" [(ngModel)]="empId" class="form-control" />
+      </div>
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-default" (click)="getEmployee()"> Get Employee </button>
+      </div>
+    </div>
+
+    <div class="panel panel-primary" style="margin-top:10px">
+      <div class="panel-heading">
+        Employee Details
+      </div>
+      <div class="panel-body" ng-show="isEmpAvail">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-sm-2">Id</label>
+            <div class="col-sm-10">
+              <input type="text" name="eid" [(ngModel)]="emp.id" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2">Name</label>
+            <div class="col-sm-10">
+              <input type="text" name="enm" [(ngModel)]="emp.name" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2">Age</label>
+            <div class="col-sm-10">
+              <input type="text" name="eage" [(ngModel)]="emp.age" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2">Gender</label>
+
+            <div class="radio, col-sm-5">
+              <label>
+                <input type="radio" name="egender" value="male" [(ngModel)]="emp.gender" /> Male</label>
+            </div>
+            <div class="col-sm-5">
+              <label>
+                <input type="radio" name="egender" value="female" [(ngModel)]="emp.gender" />Female
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-3">
+              <button type="button" class="btn btn-default" (click)="updateEmployee()"> Update Employee </button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

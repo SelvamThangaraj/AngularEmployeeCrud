@@ -1,0 +1,27 @@
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <button type="submit" class="btn btn-default" (click)="list()">Refresh Employees</button>
+  </div>
+</div>
+
+<div class="container" ng-hide="isEmpAvail">
+  <h2>Employees</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of empList">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.gender}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
