@@ -25,3 +25,38 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+C:\Users\222>cd C:\Users\222\FSE\ProjectManagerAngular
+
+C:\Users\222\FSE\ProjectManagerAngular>ng g module user
+CREATE src/app/user/user.module.ts (188 bytes)
+
+C:\Users\222\FSE\ProjectManagerAngular>cd user
+The system cannot find the path specified.
+
+C:\Users\222\FSE\ProjectManagerAngular>ng g c user/adduser
+CREATE src/app/user/adduser/adduser.component.html (26 bytes)
+CREATE src/app/user/adduser/adduser.component.spec.ts (635 bytes)
+CREATE src/app/user/adduser/adduser.component.ts (273 bytes)
+CREATE src/app/user/adduser/adduser.component.css (0 bytes)
+UPDATE src/app/user/user.module.ts (268 bytes)
+
+C:\Users\222\FSE\ProjectManagerAngular>ng g c user/modifyuser
+CREATE src/app/user/modifyuser/modifyuser.component.html (29 bytes)
+CREATE src/app/user/modifyuser/modifyuser.component.spec.ts (656 bytes)
+CREATE src/app/user/modifyuser/modifyuser.component.ts (285 bytes)
+CREATE src/app/user/modifyuser/modifyuser.component.css (0 bytes)
+UPDATE src/app/user/user.module.ts (362 bytes)
+
+C:\Users\222\FSE\ProjectManagerAngular>ng g c user/deleteuser
+CREATE src/app/user/deleteuser/deleteuser.component.html (29 bytes)
+CREATE src/app/user/deleteuser/deleteuser.component.spec.ts (656 bytes)
+CREATE src/app/user/deleteuser/deleteuser.component.ts (285 bytes)
+CREATE src/app/user/deleteuser/deleteuser.component.css (0 bytes)
+UPDATE src/app/user/user.module.ts (456 bytes)
+
+C:\Users\222\FSE\ProjectManagerAngular>ng g c user/displayuser
+CREATE src/app/user/displayuser/displayuser.component.html (30 bytes)
+CREATE src/app/user/displayuser/displayuser.component.spec.ts (663 bytes)
+CREATE src/app/user/displayuser/displayuser.component.ts (289 bytes)
+CREATE src/app/user/displayuser/displayuser.component.css (0 bytes)
+UPDATE src/app/user/user.module.ts (554 bytes)
