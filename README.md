@@ -60,3 +60,18 @@ CREATE src/app/user/displayuser/displayuser.component.spec.ts (663 bytes)
 CREATE src/app/user/displayuser/displayuser.component.ts (289 bytes)
 CREATE src/app/user/displayuser/displayuser.component.css (0 bytes)
 UPDATE src/app/user/user.module.ts (554 bytes)
+
+Adding Clarity to Angular
+ ProjFolder> ng add @clr/angular
+ refer: https://clarity.design/documentation/get-started
+ 
+ Adding Bootstrap to angular project
+   ProjFolder> npm install bootstrap@3.3.7
+   refer: https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
+   
+ProjectManagerAngular> ng g class /user/usermodel
+
+ProjectManagerAngular>ng g service /user/userservice
+ 
+   
+ 
