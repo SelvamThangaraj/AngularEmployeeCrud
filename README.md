@@ -73,5 +73,12 @@ ProjectManagerAngular> ng g class /user/usermodel
 
 ProjectManagerAngular>ng g service /user/userservice
  
-   
+ To create Angulare 5 project using CLI:
+    So if I want to create a new application for Angular 5 I do this:
+
+    npm install -g @angular/cli@1
+    ng new my-ng5-app
+  Remember, Angular CLI was version 1.7 for Angular 5.
+  ref: https://blog.angularindepth.com/angular-5-or-angular-6-yes-please-d71b08b5e59b
+  
  
