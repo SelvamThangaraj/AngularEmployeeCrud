@@ -80,5 +80,43 @@ ProjectManagerAngular>ng g service /user/userservice
     ng new my-ng5-app
   Remember, Angular CLI was version 1.7 for Angular 5.
   ref: https://blog.angularindepth.com/angular-5-or-angular-6-yes-please-d71b08b5e59b
-  
+ --------------
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+       <div>
+       	 Project:Myproject
+       </div>
+       <div class="col-sm-4">
+         <div>
+          No of Tasks:4
+          </div>
+          <div >
+          Start Date:
+          </div>
+       </div>
+       <div class="col-sm-4  ">
+          <div>
+          	Completed:
+          </div>
+          <div>
+          	End Date:
+           </div>
+       </div>
+      
+    </div>
+    <div class="col-sm-2">
+      <div>
+      	Priority
+       </div>
+       <div>
+       2
+       </div>
+    </div>
+    <div class="col-sm-2">
+     
+    </div>
+  </div>
+</div>
+-----
  
